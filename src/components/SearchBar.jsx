@@ -1,6 +1,8 @@
+import './SearchBar.css';
+
 function SearchBar({ search, setSearch }) {
   return (
-    <input
+    <input className="SearchBar"
       type="text"
       placeholder="ابحث..."
       value={search}

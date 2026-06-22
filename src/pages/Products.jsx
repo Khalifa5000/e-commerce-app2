@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import ProductCard from "../components/ProductCard";
 import SearchBar from "../components/SearchBar";
 
+
 import {
   getProducts
 } from "../services/productService";
@@ -70,7 +71,7 @@ function Products() {
   return (
     <div>
 
-      <SearchBar
+      <SearchBar 
         search={search}
         setSearch={setSearch}
       />

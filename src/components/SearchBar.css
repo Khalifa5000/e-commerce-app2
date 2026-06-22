@@ -1,0 +1,11 @@
+.SearchBar{
+    width: 200px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+}
+::placeholder {
+    color: #999;
+    font-size: 20px;
+}

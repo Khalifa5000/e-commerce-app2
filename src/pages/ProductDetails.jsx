@@ -46,15 +46,15 @@ function ProductDetails() {
         width="200"
       />
 
-      <h1>{product.title}</h1>
+      <h2>{product.title}</h2>
 
       <p>
         {product.description}
       </p>
 
-      <h2>
+      <h3>
         {product.price}$
-      </h2>
+      </h3>
 
     </div>
   );
